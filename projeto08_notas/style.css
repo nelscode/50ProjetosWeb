@@ -1,0 +1,59 @@
+body {
+    font-family: monospace;
+}
+
+#principal {
+    border: 2px solid black;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+#cabecalho {
+    border: 2px solid black;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#titulo {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.subs {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#painel-resultado, #painel-nota {
+    border: 2px solid black;
+    width: 80%;
+    margin: 40px auto 20px auto;
+}
+
+#nota-final, #nota-digitada {
+    font-size: 2rem; 
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#botao-reload {
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    cursor: pointer;
+}

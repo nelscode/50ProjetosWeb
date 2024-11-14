@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    max-width: 35rem;
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#principal {
+    max-width: 35rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#sectionCronometro {
+    margin: 0 auto 2rem auto;
+    font-size: 2.5rem;
+}
+
+#iniciar, #pausar, #resetar {
+    padding: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: blue;
+    margin: 0.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#iniciar:hover, #pausar:hover, #resetar:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+}

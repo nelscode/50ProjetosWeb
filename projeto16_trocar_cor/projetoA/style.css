@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 500px;
+    margin: 50px auto 30px auto;
+}
+
+header > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+}
+
+#botao {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+}

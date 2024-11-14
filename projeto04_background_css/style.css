@@ -1,0 +1,29 @@
+body {
+    background-color: #ccc;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 0.5rem; /* Espaçamento entre as letras*/
+    text-align: center;
+    margin-top: 5%; 
+
+    /*      
+    Primeiro valor
+        Espaçamento a esquerda (valor positivo)
+        Espaçamento a direita (valor negativo)
+
+    Segundo valor
+        Subir (valor negativo)
+        descer (valor positivo)
+
+        <-- positivo
+        negativo -->
+        
+        subir - negativo 
+        descer - positivo     
+    */
+    text-shadow: -2px 2px;
+    
+}

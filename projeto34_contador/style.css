@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 30rem;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#sectionTitulo {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#sectionContador {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 1rem auto;
+    color: green;
+}
+
+#sectionBotoes {
+    margin: 1rem auto 0 auto;
+    text-align: center;
+}
+
+#aumentar, #diminuir, #resetar {
+    width: 6rem;
+    padding: 0.7rem;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#aumentar:hover, #diminuir:hover, #resetar:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

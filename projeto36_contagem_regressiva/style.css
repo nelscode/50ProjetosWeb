@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    max-width: 25rem;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+}
+
+#sectionTitulo {
+    margin-bottom: 0.9rem;
+}
+
+#sectionTitulo h1 {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+#sectionContagem {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+#sectionBotoes {
+    text-align: center;
+}
+
+.iniciar, .pausar, .resetar {
+    padding: 0.6rem;
+    margin: 0.4rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
