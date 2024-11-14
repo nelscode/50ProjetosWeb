@@ -1,0 +1,44 @@
+* {
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+}
+
+#principal {
+    width: 25rem;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+}
+
+#sectionTitulo, #sectionPesquisa {
+    padding: 0.6rem;
+    text-align: center;
+}
+
+#pesquisa {
+    width: 15rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    border: 1px solid black;
+    font-weight: 100;
+    margin-bottom: 0.6rem;
+}
+
+#sectionLista {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+#lista {
+    list-style: none;
+    font-weight: 550;
+    text-align: center;
+}
+
+#lista li {
+    margin-bottom: 0.4rem;
+}
