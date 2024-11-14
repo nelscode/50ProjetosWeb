@@ -64,4 +64,7 @@ Sinta-se à vontade para explorar, modificar e se inspirar para criar seus próp
 ---
 
 #### Autor
-Nelson Martins
+[**Nelson Martins**](https://github.com/seu_usuario)
+
+> **Nota:** Este repositório está em constante evolução, e novos testes e projetos serão adicionados à medida que o aprendizado avança. Se você está começando sua jornada em JavaScript, espero que esse repositório seja útil para você também! Vamos aprender juntos! 🚀
+
