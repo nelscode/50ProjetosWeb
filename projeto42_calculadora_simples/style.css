@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 2rem;
+}
+
+#visor {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.6rem;
+    height: 4rem;
+    font-weight: bold;
+    font-size: 2.1rem;
+    border-radius: 0.4rem 0.4rem 0 0 ;
+}
+
+#calculadora {
+    margin: 0 auto;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+}
+
+#ladoA {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#ladoB {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#botoes {
+    padding: 0.3rem;
+    border: 2px solid black;
+    border-radius: 0 0 0.4rem 0.4rem;
+}
+
+.botoes {
+    width: 3.5rem;
+    height: 3rem;
+    cursor: pointer;
+    border: 1px solid #8d8d8d;
+}
+
+.botoes:hover {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#adicao, #subtracao, #divisao, #multiplicacao, #ponto {
+    color: blue;
+    font-weight: bold;
+}
+
+#igual {
+    flex-grow: 1;
+    background-color: blue;
+    color: white;
+}
+
+#ac {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#rodape a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    color: blue;
+}
