@@ -1,0 +1,55 @@
+* {
+    font-family: monospace;
+    padding: 0; margin: 0;
+}
+
+body {
+    background-color: #ccc;
+}
+
+main {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 500px;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+section {
+    padding: 10px;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+li {
+    font-size: 1.4rem;
+}
+
+#secaobotao {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+    text-transform: uppercase;
+    background-color: #ccc;
+    border: 2px solid black;
+    box-shadow: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,48 @@
+* {
+    margin: 0; padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cabecalho, #principal {
+    width: 55%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#cabecalho {
+    margin: 50px auto 0 auto;
+}
+
+#primeiroNumero, #segundoNumero, #botaoVerificar {
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 6px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#botaoVerificar {
+    background-color: blue;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+#principal > p {
+    margin: 10px auto;
+    padding: 6px;
+    width: 90%;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}

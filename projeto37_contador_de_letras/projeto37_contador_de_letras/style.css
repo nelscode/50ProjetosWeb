@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal {
+    max-width: 25rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+#principal h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.1rem;
+}
+
+#principal input {
+    padding: 0.2rem;
+}
+
+#formulario {
+    max-width: 100%;
+    text-align: center;
+}
+
+#inputText {
+    width: 15rem;
+}
+
+#botaoContar {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    width: 5rem;
+}
+
+#sectionResultado {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.9rem;
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}

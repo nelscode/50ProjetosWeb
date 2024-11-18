@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(150deg, #1C2C33, #68331F);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+#cabecalho{
+    max-width: 23rem;
+    height: 25rem;
+    margin: 50px auto 0 auto;
+    border-radius: 20px;
+}
+
+#perfilImg {
+    background-image: url(assets/IA5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#principal {
+    max-width: 23rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+#principal button {
+    margin: 0;
+    width: 100%;
+    border: 0;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#principal h1 {
+    padding: 20px 20px 0 15px;
+    font-size: 1.8rem;
+}
+
+#principal p {
+    margin: 10px auto 5px auto;
+    font-size: 1.2rem;
+}
+
+.soma {
+    color: black;
+}
+
+#principal ul {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.fa-brands {
+    color: black;
+}
+
+#principal li {
+    display: inline;
+    font-size: 1.5rem;
+    margin: 4px;
+}
+
+@media screen and (max-width: 430px){
+    body {
+        overflow: auto;
+    }
+
+    #cabecalho{
+        max-width: 18rem;
+        height: 18rem;
+        margin: 50px auto 0 auto;
+    }
+    
+
+    #principal {
+        max-width: 18rem;
+        height: 15rem;
+    }
+
+}

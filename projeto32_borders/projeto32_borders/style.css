@@ -1,0 +1,42 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main, header {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+section {
+    height: 12rem;
+    width: 12rem;
+    background-color: aqua;
+}
+
+.section1 {
+    border: 12px outset black;
+}
+
+.section2 {
+    border-top: 20px outset red;
+    border-bottom: 20px inset black;
+    border-left: 20px dotted green;
+    border-right: 50px solid black;
+}

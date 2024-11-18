@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header, main {
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    width: 60%;
+    max-width: 600px;
+}
+
+main > img {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 20px;
+    transition: opacity 0.5s ease;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    width: 60%;
+    max-width: 600px;
+}
+
+footer > p, button {
+    text-align: center;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    width: 70%;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: darkblue; /* Muda a cor quando o mouse passa */
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Calculadora simples">
+    <meta name="keywords" content="html, css, javascript, projeto calculadora, desenvolvimento web">
+    <meta name="author" content="Nelson Martins">
+
+    <!---Styles---> 
+    <link rel="stylesheet" href="style.css">
+    <!-------------------> 
+
+    <title>Projeto 22 - Calculadora</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Calculadora Simples</h1>
+    </header>
+
+    <main id="principal">
+
+        <form id="formulario">
+
+            <input type="number" id="numero1" min="0">
+
+            <select name="operadores" id="operadores">
+                <option value="adicao">+</option>
+                <option value="subtracao">-</option>
+                <option value="multiplicacao">*</option>
+                <option value="divisao">/</option>
+            </select>
+
+            <input type="number" id="numero2" min="0">
+            
+            <span id="igual">=</span>
+            <span id="resultado"></span>
+            
+            <button id="calcular">Calcular</button>
+        </form>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

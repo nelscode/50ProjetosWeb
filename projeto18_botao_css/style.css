@@ -1,0 +1,44 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+#principal {
+    padding: 10px;
+    width: 70%;
+    max-width: 450px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 50px;
+}
+
+#titulo {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#paragrafo {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#botao {
+    margin: 20px 0 0 0;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 8px;
+}

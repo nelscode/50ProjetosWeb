@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #ccc;
+}
+
+#principal {
+    width: 600px;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#titulo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 10px;
+}
+
+li {
+    font-size: 1.3rem;
+}
+
+#secaoBotao {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ccc;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}

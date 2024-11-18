@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="html, css, javascript, desenvolvimento web">
+    <meta name="description" content="Uma calculadora para financiamento de motos">
+    <meta name="author" content="Nelson Martins">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-------------->
+
+    <title>Projeto 40 - Calculadora de Financiamento de Motos</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1 id="titulo">Financiamento de Motos</h1>
+    </header>
+
+    <main id="principal">
+        <form id="formulario">
+            <section class="sectionInputs">
+                <label for="preco_da_moto">Preço da Moto:</label>
+                <input type="number" name="preco_da_moto" id="preco_da_moto" required min="0">
+            </section>
+
+            <section class="sectionInputs">
+                <label for="entrada_da_moto">Entrada da Moto:</label>
+                <input type="number" name="entrada_da_moto" id="entrada_da_moto" required min="0">
+            </section>
+
+            <section class="sectionInputs">
+                <label for="quantidade_de_meses">Quantidade de  meses para pagar:</label>
+                <input type="number" name="quantidade_de_meses" id="quantidade_de_meses" required min="0">
+            </section>
+
+            <section class="sectionInputs">
+                <label for="juros_anual">Juros anual:</label>
+                <input type="number" name="juros_anual" id="juros_anual" required min="0">
+            </section>
+            
+            <section class="sectionInputs sectionButton">
+                <button id="botaoCalcular">Calcular</button>
+            </section>
+        </form>
+
+        <section id="sectionResultado">
+            <!-- RESULTADO AQUI -->
+             <p id="resultado">Aguardando resultado...</p>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p>Feito com 🧡 por <a href="https://www.linkedin.com/in/nelsonmartins2001/" target="_blank">Nelson Martins</a></p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
