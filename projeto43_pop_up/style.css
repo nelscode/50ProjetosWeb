@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#sectionButton {
+    width: 25rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#buttonClick {
+    padding: 0.7rem;
+    border: 0.1rem solid #bdbcbc;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+
+#buttonClick:hover, #fechar:hover {
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+#sectionPopUp {
+    background-color: white;
+    width: 25rem;
+    margin: 0 auto;
+    display: none;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+#sectionClose {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.4rem;
+}
+
+#fechar {
+    text-transform: uppercase;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 0.2rem;
+    width: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+#sectionPopUp p {
+    margin-top: 0.7rem;
+    font-size: 0.8rem;
+}
